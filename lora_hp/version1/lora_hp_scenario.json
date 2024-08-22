@@ -1,0 +1,17 @@
+{
+    "application_name": "lora_hp_version1",
+    "optimization_objectives": ["Value"],
+    "optimization_iterations": 20,
+    "input_parameters" : {
+        "learning_rate": {
+            "parameter_type" : "real",
+            "values" : [1e-8, 1],
+            "parameter_default" : 1e-4
+        },
+        "rank": {
+            "parameter_type" : "integer",
+            "values" : [1, 64],
+            "parameter_default" : 16
+        }
+    }
+}

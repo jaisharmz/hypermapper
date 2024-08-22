@@ -1,0 +1,7 @@
+[console_scripts]
+hm-compute-pareto = hypermapper._cli:_compute_pareto_cli
+hm-plot-hvi = hypermapper._cli:_plot_hvi_cli
+hm-plot-optimization-results = hypermapper._cli:_plot_optimization_results_cli
+hm-plot-pareto = hypermapper._cli:_plot_pareto_cli
+hm-quickstart = hypermapper._cli:_branin_quick_start_cli
+hypermapper = hypermapper._cli:_hypermapper_cli
